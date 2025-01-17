@@ -31,8 +31,10 @@ Adicione o ChromeDriver ao `PATH` (opcional, mas recomendado): Para que o Seleni
 
 O conteúdo do arquivo deve ser o seguinte:
 
+```
 USERNAME=seu_usuario
 PASSWORD=sua_senha
+```
 
 Neste teste ja deixei previamente configurado com minhas credenciais.
 
