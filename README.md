@@ -17,6 +17,16 @@ Baixe o ChromeDriver:
 Vá até o site oficial do ChromeDriver.
 Selecione a versão do ChromeDriver que corresponde à versão do seu Google Chrome. Se você tiver o Chrome versão 116.x, baixe o ChromeDriver 116.x.x.
 
+Extraia o arquivo:
+
+Após o download, extraia o arquivo para um diretório de sua escolha. No caso do ChromeDriver, o arquivo extraído será o `chromedriver.exe` no Windows ou `chromedriver` no Linux/macOS.
+
+Adicione o ChromeDriver ao `PATH` (opcional, mas recomendado): Para que o Selenium encontre o ChromeDriver sem a necessidade de especificar o caminho completo, você pode adicionar o diretório do ChromeDriver ao seu PATH.
+
+* No Linux/macOS: Adicione a linha abaixo ao seu arquivo .bashrc ou .zshrc `export PATH=$PATH:/caminho/do/chromedriver`
+* No Windows: Adicione o diretório do chromedriver.exe nas variáveis de ambiente do sistema:
+
+
 ##### Configurar o arquivo .env:
 
 O conteúdo do arquivo deve ser o seguinte:
