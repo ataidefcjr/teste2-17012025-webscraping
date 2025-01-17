@@ -22,7 +22,7 @@ Neste teste, você precisa desenvolver uma aplicação para coletar dados do sit
 1) Utilize a linguagem Python para desenvolver a solução.
 2) No mesmo README, inclua uma seção detalhada que explique claramente os passos necessários para executar o código. Certifique-se de que as instruções sejam precisas, organizadas e fáceis de entender, pois os avaliadores seguirão essa documentação.
 3) Faça um fork do repositório.
-4) A entrega pode ser realizada por meio de um pull request para o repositório original.
+4) A entrega deve ser realizada por meio de um pull request para o repositório original.
 5) Envie seus commits para o GitHub faltando 5 minutos para o prazo final do teste. Não faça antes, pois você pode expor informações do seu teste para os demais participantes.
 6) Abra o pull request também faltando 5 minutos para o prazo final da entrega do teste.
 7) A entrega deve ser realizada dentro do prazo estabelecido.
