@@ -1,3 +1,55 @@
+# WebScraping usando Selenium 
+
+Este é um projeto de teste para o estágio em uma empresa de energia, que utiliza Selenium para navegar em um site de datasets, realizar login, aplicar filtros e fazer download de informações sobre cursos. O script simula interações humanas como cliques, preenchimento de campos e a aplicação de filtros.
+
+
+### Estrutura do Projeto
+* bot_brasil_io.py: O script principal que realiza as operações de web scraping.
+* .env: Arquivo de configuração com o nome de usuário e senha para login.
+
+### Como Usar
+
+##### Baixar o ChromeDriver
+O ChromeDriver é necessário para controlar o navegador Google Chrome com o Selenium.
+
+Baixe o ChromeDriver:
+
+Vá até o site oficial do ChromeDriver.
+Selecione a versão do ChromeDriver que corresponde à versão do seu Google Chrome. Se você tiver o Chrome versão 116.x, baixe o ChromeDriver 116.x.x.
+
+##### Configurar o arquivo .env:
+
+O conteúdo do arquivo deve ser o seguinte:
+
+USERNAME=seu_usuario
+PASSWORD=sua_senha
+
+Neste teste ja deixei previamente configurado com minhas credenciais.
+
+### Rodar o script:
+
+Para rodar o script, execute o seguinte comando:
+
+```sh
+pip install -r requirements.txt
+python bot_brasil_io.py
+
+```
+
+#### Interação com o script:
+
+O script realizará o login no site e navegará até a página de datasets.
+Será solicitado ao usuário que selecione filtros (universidade, campus, curso, grau e turno).
+Após a aplicação dos filtros, o script tentará fazer o download do dataset.
+
+Saída:
+
+O script exibirá mensagens de sucesso ou erro conforme a execução.
+O download será realizado para a pasta `downloads` na raiz do script python.
+
+
+_____
+
 <p style="text-align:center" dir="auto">
   <a href="#desafio1">Teste 2</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
